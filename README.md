@@ -1,11 +1,14 @@
 # Assemblage-moment-matrices
 
-To run the codes involving solving semi-definite programs, one has to use YALMIP as the modelling language and any solver compatible with YALMIP (e.g., SDPA, SDPT3, SDPNAL, etc.).
+This repository contains MATLAB code for computing lower bounds on tripartite steering robustness using the assemblage moment matrix (AMM) approach. We consider the steering scenario, in which Alice and Bob jointly steer Charlie.
 
-First, download all the codes and add them to the working path.
+Running the codes requires YALMIP together with a compatible SDP solver, such as SDPA, SDPT3, or SDPNAL.
 
-Filenames starts with "AB_C..." are examples.
+Before running the examples, download all the files and add the relevant folders to the MATLAB search path.
 
-For example, "AB_C_AMM_L_Mermin_SR_lowerbound.m" computes the lower bound of steering robustness for a given Mermin inequality violation, through AMM approach. In the filename "L" means "local" correlations.
+Files whose names start with AB_C are examples.
 
-Other example, "AB_C_AMM_NS_Mermin_SR_lowerbound.m" computes the lower bound of steering robustness for a given Mermin inequality violation, through AMM approach. In the filename "NS" means "no-signaling" correlations.
+For example, "AB_C_AMM_L_Mermin_SR_lowerbound.m" computes a lower bound on steering robustness for a given Mermin inequality violation using the AMM approach. In the filename, "L" refers to local correlations between Alice and Bob.
+
+Similarly, "AB_C_AMM_NS_Mermin_SR_lowerbound.m" uses the AMM approach to compute a lower bound on steering robustness for a given Mermin inequality violation. Here, "NS" refers to the no-signalling correlations between Alice and Bob.
+
