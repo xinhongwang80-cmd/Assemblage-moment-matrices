@@ -8,7 +8,6 @@ Before running the examples, download all the files and add the relevant folders
 
 Files whose names start with AB_C are examples.
 
-For example, "AB_C_AMM_L_Mermin_SR_lowerbound.m" computes a lower bound on steering robustness for a given Mermin inequality violation using the AMM approach. In the filename, "L" refers to local correlations between Alice and Bob.
-
-Similarly, "AB_C_AMM_NS_Mermin_SR_lowerbound.m" uses the AMM approach to compute a lower bound on steering robustness for a given Mermin inequality violation. Here, "NS" refers to the no-signalling correlations between Alice and Bob.
+For example, "AB_C_AMM_L_Mermin_SR_lowerbound.m" computes a lower bound on steering robustness for a given Mermin inequality violation using the AMM approach. In the filename, "L" indicates that the joint response of Alice and Bob in the LHS model is restricted to the local set.
+Similarly, "AB_C_AMM_NS_Mermin_SR_lowerbound.m" uses the AMM approach to compute a lower bound on steering robustness for a given Mermin inequality violation. Here, "NS" indicates that the joint response of Alice and Bob is allowed to belong to the no-signalling set.
 
